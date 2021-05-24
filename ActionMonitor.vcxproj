@@ -148,6 +148,15 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ActionMonitor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\vs.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="packages\vcpkg.C.vcpkg.1.0.0\build\native\vcpkg.C.vcpkg.targets" Condition="Exists('packages\vcpkg.C.vcpkg.1.0.0\build\native\vcpkg.C.vcpkg.targets')" />
